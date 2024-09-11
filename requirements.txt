@@ -1,0 +1,7 @@
+gunicorn
+whitenoise
+django
+psycopg2-binary==2.9.6
+djangorestframework
+markdown
+django-filter
