@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'agrichain360.wsgi.application'
 
 
 DATABASES = {
-    'default': dj_database_url.config(default='DATABASE_URL')
+    'default': dj_database_url.config(default='postgresql://postgres:AHcukaXDNqQrvpONjBULRrcNCBuDVzLc@postgres.railway.internal:5432/railway')
 }
 
 
